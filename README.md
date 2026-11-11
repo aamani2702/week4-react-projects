@@ -1,16 +1,29 @@
-# React + Vite
+# Bleep Education - Week 04 React Mini Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This repository contains two production-ready React.js applications built during Week 4:
+1. **TaskMaster To-Do App**: A daily task manager with status filters, due dates, editing, and persistence.
+2. **IdeaVault Notes App**: A feature-rich note-taking app with categories, real-time search, timestamps, and persistence.
 
-Currently, two official plugins are available:
+## Features Implemented
+- **To-Do App:**
+  - Add, edit, delete, and toggle completion of tasks.
+  - Status filtering (*All, Pending, Completed*).
+  - Due date tracking.
+  - LocalStorage synchronization to retain tasks across sessions.
+- **Notes App:**
+  - Create, edit, and delete notes.
+  - Categorization (*General, Work, Personal, Ideas*).
+  - Real-time search filter matching title, content, or category.
+  - Automatic timestamp generation.
+  - LocalStorage synchronization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React.js (Vite)
+- Tailwind CSS
+- ES6+ JavaScript (Arrow functions, Destructuring, Spread operator, Array methods like `.map()` and `.filter()`)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/aamani2702/week4-react-projects.git](https://github.com/aamani2702/week4-react-projects.git)
